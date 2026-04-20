@@ -1,13 +1,22 @@
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Poppins, Pirata_One } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-serif' })
+const poppins = Poppins({ 
+  subsets: ['latin'], 
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-sans' 
+})
+
+const pirata = Pirata_One({ 
+  subsets: ['latin'], 
+  weight: ['400'],
+  variable: '--font-serif' 
+})
 
 export const metadata: Metadata = {
-  title: "GENTLEMEN'S CUT | Premium Barbershop",
-  description: "Pengalaman grooming eksklusif untuk pria modern. Presisi, gaya, dan kenyamanan.",
+  title: "Nice Circles Barbershop",
+  description: "Barbershop terpercaya di Surabaya. Find Your Style. Own The Sea.",
 }
 
 export default function RootLayout({
@@ -16,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="id" className={`dark ${inter.variable} ${playfair.variable} scroll-smooth`}>
+    <html lang="id" className={`dark ${poppins.variable} ${pirata.variable} scroll-smooth`}>
       <body className="min-h-screen bg-background text-foreground font-sans antialiased flex flex-col">
         {children}
       </body>
