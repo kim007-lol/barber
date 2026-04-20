@@ -7,7 +7,7 @@ export interface ServiceItem {
 }
 
 export interface FeatureItem {
-  icon: JSX.Element
+  iconName: string
   title: string
   desc: string
 }
