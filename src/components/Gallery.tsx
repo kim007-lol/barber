@@ -15,12 +15,12 @@ export default function Gallery({ images }: { images?: GalleryItem[] }) {
     url: urlForImage(item.image)?.url() || '',
     alt: item.altText || 'Gallery image'
   })) : [
-    { _id: '1', url: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&q=80&w=800', alt: 'Haircut 1' },
-    { _id: '2', url: 'https://images.unsplash.com/photo-1593702287258-002d295af3c8?auto=format&fit=crop&q=80&w=800', alt: 'Haircut 2' },
-    { _id: '3', url: 'https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=800', alt: 'Barbershop interior' },
-    { _id: '4', url: 'https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=800', alt: 'Haircut 3' },
-    { _id: '5', url: 'https://images.unsplash.com/photo-1567894340315-735d7c361bf0?auto=format&fit=crop&q=80&w=800', alt: 'Haircut 4' },
-    { _id: '6', url: 'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&q=80&w=800', alt: 'Haircut 4' },
+    { _id: '1', url: 'https://images.unsplash.com/photo-1605497788044-5a32c705d596?auto=format&fit=crop&q=80&w=800', alt: 'Premium Haircut' },
+    { _id: '2', url: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=800', alt: 'Beard Trimming' },
+    { _id: '3', url: 'https://images.unsplash.com/photo-1508898578281-774ac4893c0c?auto=format&fit=crop&q=80&w=800', alt: 'Vintage Barber Tools' },
+    { _id: '4', url: 'https://images.unsplash.com/photo-1588661139414-9ce576fc9b1d?auto=format&fit=crop&q=80&w=800', alt: 'Haircut and Grooming' },
+    { _id: '5', url: 'https://images.unsplash.com/photo-1593702275687-f8b402bf1ef5?auto=format&fit=crop&q=80&w=800', alt: 'Barber in Action' },
+    { _id: '6', url: 'https://images.unsplash.com/photo-1523905330026-b8bd1e5f320e?auto=format&fit=crop&q=80&w=800', alt: 'Barbershop Chair' },
   ];
 
   return (

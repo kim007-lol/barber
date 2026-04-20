@@ -75,5 +75,15 @@ export const REVIEWS = [
     name: "Amar I Gado Creative",
     review: "Mantap good service, tempatnya cozy, worth it",
     rating: 5
+  },
+  {
+    name: "Fajar Rizky",
+    review: "Potongan rambutnya super presisi! Barbernya humble dan ngerti style rambut terkini, mantap jiwa.",
+    rating: 5
+  },
+  {
+    name: "Kevin Pratama",
+    review: "Nyobain potong kesini langsung cocok. Vibes tempatnya maskulin banget dan bersih. Highly recommended!",
+    rating: 5
   }
 ]
