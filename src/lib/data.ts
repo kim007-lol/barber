@@ -48,19 +48,19 @@ export const CREW_MEMBERS = [
   {
     name: "Surya",
     role: "Stylist",
-    image: "https://images.unsplash.com/photo-1595959183082-7b570b7e08e2?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=600",
     specialty: "Classic Fade & Pompadour"
   },
   {
     name: "Dimas",
     role: "Barber",
-    image: "https://images.unsplash.com/photo-1618018353155-b0eb95af9e23?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1622288432450-277d0fce5ed9?auto=format&fit=crop&q=80&w=600",
     specialty: "Modern Textures & Coloring"
   },
   {
     name: "Rama",
     role: "Groomer",
-    image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1620060010996-3b603d778fb3?auto=format&fit=crop&q=80&w=600",
     specialty: "Kids Haircut & Treatment"
   }
 ]
@@ -75,10 +75,5 @@ export const REVIEWS = [
     name: "Amar I Gado Creative",
     review: "Mantap good service, tempatnya cozy, worth it",
     rating: 5
-  },
-  {
-    name: "Dimas Syahid M",
-    review: "Sudah 2 kali kesini tapi hasilnya tetep jelekk, tolong belajar lagi",
-    rating: 2
   }
 ]
